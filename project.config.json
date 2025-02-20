@@ -1,7 +1,9 @@
 {
   "miniprogramRoot": "miniprogram/",
   "cloudfunctionRoot": "cloudfunctions/",
+  "lazyCodeLoading": "requiredComponents",
   "setting": {
+    "lazyCodeLoading": "requiredComponents",
     "urlCheck": false,
     "es6": true,
     "enhance": true,
@@ -36,27 +38,16 @@
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
-  "appid": "wx4019faa8015bf3ca",
+  "appid": "wx22ac501bc10ee05f",
   "projectname": "ToGo%E6%A0%A1%E5%9B%AD",
   "libVersion": "2.14.1",
-  "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
-          "id": -1,
           "name": "pages/core/timetable/timetable",
           "pathName": "pages/core/timetable/timetable",
           "query": "",
@@ -119,9 +110,20 @@
         {
           "name": "我的帖子",
           "pathName": "pages/my/myContent",
+          "query": "",
           "scene": null
         }
       ]
     }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }

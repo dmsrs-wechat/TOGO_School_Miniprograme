@@ -1,0 +1,9 @@
+packages:
+  # 所有在 packages/ 目录下的 package
+  - "cloudfunctions/*"
+  - "miniprogram"
+  - template/vitepress-plugin-slot-inject-template
+  # 不包括在 test/demos 文件夹下的 package
+  - "!**/__test__/**"
+  - "!**/demos/**"
+  - "!**/packages/create-theme/**/template/**"
